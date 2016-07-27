@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+#nav{
+	position:relative;
+	left:0px; 
+	top:0px;
+	width:100%;
+	min-width:1200px;
+	background-color: #000;
+	/*background-image: linear-gradient(to bottom, #F3F3F3, #E2E2E2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff3f3f3', endColorstr='#ffe2e2e2', GradientType=0);
+	background-repeat: repeat-x;
+	box-shadow: 0px 0px 6px #333333;*/ 
+	border-bottom:1px solid #525151;
+	height:60px;
+}
+#nav div.logo{
+	position:absolute;
+	top:0px;
+	left:0px; 
+	width:50%;
+	height:100%;
+}
+
+#nav div.user{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:180px;
+	height:100%;
+}
+
+#container{
+	width:100%;
+	min-width:1200px;
+	margin:0px;
+	padding:0px;
+}
+
+#container div{
+	float:left;
+}
+
+
+/***左边导航栏***/
+#panel_content_nav{
+	width:14.9%;
+	min-width:150px; 
+	height:100%;   
+	background:#F9F9F9;       
+	background: -moz-linear-gradient(left, #F9F9F9 95%, #DADADA 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(95%, #F9F9F9), color-stop(100%, #DADADA));
+	background: -webkit-linear-gradient(left, #F9F9F9 95%, #DADADA 100%);
+	background: -o-linear-gradient(left, #F9F9F9 95%, #DADADA 100%);
+	background: -ms-linear-gradient(left, #F9F9F9 95%, #DADADA 100%);
+	background: linear-gradient(to right, #F9F9F9 95%, #DADADA 100%);
+ 	
+	bottom: 0px; 
+	color: #999999; 
+}
+
+#panel_content_nav div.content_nav_list{
+	width:100%; 
+}
+#panel_content_nav div.content_nav_list ul{
+	list-style:none;
+	width:100%;
+} 
+
+#panel_content_nav div.content_nav_list ul li{
+	line-height:40px;
+	width:80%;
+	height:40px;
+	padding-left:20%;
+	cursor:pointer; 
+}
+
+#panel_content_nav div.content_nav_list ul li:hover a{
+	 color:#FFFFFF;
+}
+
+.selected{
+	background:#0099d7;
+	 color:#FFFFFF;
+}
+
+.panel_header{
+	width:100%;
+	height:60px;
+	border:1px solid white;
+	line-height:40px;
+	background-color: #F3F3F4;
+	border-color: #DBDBDE;
+	border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.447) 0px, rgba(255, 255, 255, 0) 100%);
+	box-shadow: 0px 0px 4px 0px rgba(82, 90, 104, 0.196);
+    background-position: 50% 50%;
+}
+.panel_content{
+	width:100%;
+	min-height:300px;
+	border-top:0px;
+	border-bottom:0px;
+	border-color: #DBDBDE;
+    background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.447) 0px, rgba(255, 255, 255, 0) 100%);
+	box-shadow: 0px 0px 4px 0px rgba(82, 90, 104, 0.196);
+    background-position: 50% 50%;
+}
+
+.panel_footer{
+	width:100%;
+	height:20px;
+	border:1px solid white;
+	line-height:40px;
+	background-color: #F3F3F4;
+	border-color: #DBDBDE;
+	border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.447) 0px, rgba(255, 255, 255, 0) 100%);
+	box-shadow: 0px 0px 4px 0px rgba(82, 90, 104, 0.196);
+    background-position: 50% 50%;
+	margin-bottom:5px;
+}
+
+#panel_content_nav ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.operation_nav{
+	width:100%;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	border-bottom:1px solid #DBDBDE;
+	cursor:pointer;
+	line-height:30px;
+	text-align:center;
+}
+.user_operation {
+	position:relative;
+	font-size:14px;
+	color:#333333;
+	font-weight:bold;
+	
+}
+.selected{
+	background:#0397D6;
+	color:#FFFFFF;
+}
+
+
+/*******右边内容展示*******/
+#panel_content_detail{
+	width:85%;
+	min-width:1000px;
+	height:100%;
+	padding:0px;
+	margin:0px;  
+}
+
+#panel_content_detail .panel_header ul{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.myBill{
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+	cursor:pointer;  
+}
+.myBill:first-child{
+	margin:0px;
+	border-top-left-radius:5px;
+}
+.isShow{
+	background:#0397D6;
+	color:#FFFFFF;
+}
+
+.myBill_content{
+	width:100%;
+	min-height:460px;
+	border:1px solid white;
+	border-top:0px;
+	border-color: #DBDBDE;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+    background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.447) 0px, rgba(255, 255, 255, 0) 100%);
+	box-shadow: 0px 0px 4px 0px rgba(82, 90, 104, 0.196);
+    background-position: 50% 50%;
+	display:none;
+}
+.content_show{
+	display:block;
+}
+.k-grid-pager{
+	width:99.7%;
+}
+

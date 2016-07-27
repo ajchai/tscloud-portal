@@ -1,0 +1,204 @@
+@charset "utf-8";
+#container{
+	width:1000px;
+	min-height:750px;
+	max-height:3500px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin:0 auto;
+	overflow:auto;
+}
+
+#container div{
+	float:left;
+}
+#list_left_nav{
+	position:relative;
+	width:235px;
+	background: #F9F9F9;
+    border: 1px solid #E6E6E6;  
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.251); 
+	border-right:0px;
+}
+ 
+#list_left_nav .test{
+	list-style:none; 
+	width:100.5%;
+	margin:0px;
+	padding:0px;
+}
+
+#list_left_nav .h2_current {
+	color:#404a58;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	margin:0px;
+	background: -webkit-gradient(linear,0 0,0 100%,from(#EDEEF0),to(#DCDDDF));
+	background: -moz-linear-gradient(top,#EDEEF0,#DCDDDF);
+	background: -o-linear-gradient(top,#EDEEF0,#DCDDDF);
+	background: linear-gradient(to bottom,#EDEEF0,#DCDDDF);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#edeef0',EndColorStr='#dcdddf')
+}
+
+#list_left_nav .h2 {
+	color:#fff; 
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	margin:0px;
+	background: -webkit-gradient(linear,0 0,0 100%,from(#0099D7),to(#348AE0));
+	background: -moz-linear-gradient(top,#0099D7,#348AE0);
+	background: -o-linear-gradient(top,#0099D7,#348AE0);
+	background: linear-gradient(to bottom,#0099D7,#348AE0);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#0099D7',EndColorStr='#348AE0')
+}
+
+#list_left_nav .test li{
+	position:relative;
+	width:100%;
+	height:30px;
+	font-size:13px;
+	line-height:30px; 
+	cursor:pointer;
+}
+
+.selectedService{
+	color:#0099d7; 
+	font-weight:700;
+	background:#fff;
+} 
+
+#list_middle_content{
+	width:742px;
+	min-height:700px;
+	background: #fff;
+	padding-left:10px;
+	padding-right:10px;
+    border: 1px solid #E6E6E6; 
+}
+
+#content_header{
+	width:100%; 
+	height:150px;
+}
+
+#content_title{
+	width:100%;
+	margin:0px;
+	height:39px;
+}
+
+#content_title ul{
+	list-style:none;
+	width:100%;
+	height:38px;
+	border-bottom:1px solid #ccc;
+	margin:0px;
+	padding:0px;  
+	background: linear-gradient(to bottom, #EDEEF0, #DCDDDF) transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#EDEEF0',EndColorStr='#DCDDDF')
+}
+
+.service_info{
+	list-style:none;
+	height:37px;
+	text-align:center;  
+	line-height:37px;
+	border-left:1px solid #ccc;
+	padding:0px 10px 0px 10px;
+	font-size:15px;
+	cursor:pointer;
+	float:left;
+
+}
+.active{
+	border-bottom:0px;
+	border-top:2px solid #0099d7;
+	font-weight:bold;
+	background:#fff;
+	color:#000;
+}
+
+.content_body{
+	width:100%;
+	padding-top:15px;
+	min-height:500px;
+	display:none;
+}
+
+.content_body .panel{
+	width:730px; 
+	border-bottom: 1px solid #DADADA;
+	border-left: 1px solid #DADADA;
+	border-right: 1px solid #DADADA;
+	border-top: 1px solid #DADADA; 
+	box-shadow: #DADADA 0px 3px 3px;
+	position: relative;
+	margin-bottom:15px;
+	padding:5px;
+} 
+
+.content_body .panel p{
+    margin-top:0px;
+	font-size: 14px;
+}
+
+.content_body .panel .detaile_info{
+	overflow: hidden;
+	margin-top:20px;
+	clear:both;
+}
+.detaile_info:first-child{
+	margin:0px;
+}
+
+.content_body .panel .detaile_info img{
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+.content_body .panel .detaile_info h4{
+	float: none;
+	font-size: 14px;
+	margin-left: 40px;
+	margin-top:0px;
+	font-weight:400;
+}
+.content_body .panel .detaile_info p{
+	float: none;
+	margin-left: 40px;
+	margin-top:0px !important;
+	font-size:14px;
+}
+.selected{
+	display:block;
+}
+ .no0{
+   width:35px;
+	height:45px;
+	background:url(../images/index/icon.png) no-repeat;
+	margin-right:10px;
+	background-position: 8px -185px;
+}
+.no1{
+	width:35px;
+	height:45px;
+	background:url(../images/index/icon.png) no-repeat;
+	margin-right:10px;
+	background-position: -46px -185px;
+}
+.no2{
+	width:35px;
+	height:45px;
+	background:url(../images/index/icon.png) no-repeat;
+	background-position: -100px -185px;
+	margin-right:10px;
+}
+.no3{
+	width:35px;
+	height:45px;
+	background:url(../images/index/icon.png) no-repeat;
+	background-position: -152px -185px;
+	margin-right:10px;
+}

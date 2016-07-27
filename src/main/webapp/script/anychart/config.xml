@@ -1,0 +1,37 @@
+<anychart>
+  <settings>
+    <animation enabled="true"/>
+  </settings>
+  <gauges>
+    <gauge>
+      <chart_settings>
+        <title>
+          <text><![CDATA[]]></text>
+        </title>
+      </chart_settings>
+
+      <linear orientation="Vertical">
+        <margin bottom="5"/>
+        <axis size="60" position="60">
+          <scale_bar enabled="false"/>
+          <major_tickmark length="4"/>
+          <labels>
+            <format><![CDATA[{%Value}{numDecimals:0}%]]></format>
+          </labels>
+        </axis>
+        <pointers>
+          <pointer type="Tank" value="0" color="#2F7ED8">
+            <label enabled="false"> 
+              <position placement_mode="ByPoint" x="60" y="103" valign="Center"/>
+              <format><![CDATA[{%Value}{numDecimals:1}%]]></format>
+              <background>
+                <effects enabled="true"/>
+              </background>
+            </label>
+            <animation enabled="true" start_time="0" duration="0.3" interpolation_type="Circular"/>
+          </pointer>
+        </pointers>
+      </linear>
+    </gauge>
+  </gauges>
+</anychart>
